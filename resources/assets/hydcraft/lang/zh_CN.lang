@@ -82,18 +82,18 @@ tile.LPBlockCore.name=低压核心
 tile.MPBlockCore.name=中压核心
 tile.HPBlockCore.name=高压核心
 
-tile.blockInfiniteSource.name=无线能源
-tile.hydraulicWaterPump.name=阿基米德螺旋泵
+tile.blockInfiniteSource.name=无限能源
+tile.hydraulicFluidPump.name=阿基米德螺旋泵
 desc.hydraulicFluidPump=Pump for pumping up fluids
 
 tile.blockCopper.name=铜块
 tile.blockLead.name=铅块
 
-tile.blockJarDirt.name=Jar of Dirt
+tile.blockJarDirt.name=土罐
 tile.refinedLonezium.name=精炼Lonezium
 tile.refinedNadsiumBicarbinate.name=精炼Nadsium Bicarbinate
 tile.blockDirtyMineral.name=Dirty Mineral
-tile.hydraulicAssembler.name=Assembler
+tile.hydraulicAssembler.name=组装台
 tile.fluidPipe.name=Fluid Pipe
 tile.fluidInterface.name=Fluid Interface
 tile.hydraulicCharger.name=Hydraulic Charger
@@ -147,10 +147,10 @@ lang.gui.maxHighPressure=最大: 高压
 lang.gui.maxMediumPressure=最大: 中压
 lang.gui.maxLowPressure=最大: 低压
 lang.warn.wip=注意: 这个方块现在仍能正常使用,但以后会被其它取代!
-lang.gui.updateAvailable=Hydraulicraft version %s available
+lang.gui.updateAvailable=新版Hydraulicraft可用: 版本为%s
 lang.gui.releasedAt=Released on: %s
 lang.gui.upToDate=Hydraulicraft up to date
-lang.tooltip.multiblock=Multiblock. Max pressure depends on the core used.
+lang.tooltip.multiblock=多方块结构.最大压力取决于所使用的核心.
 
 #Harvester
 lang.harvester.notFormingError.trolleyExpected=Expected a trolley at %s
