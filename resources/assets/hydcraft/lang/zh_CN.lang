@@ -8,7 +8,7 @@ item.ingotEnrichedCopper.name=浓缩铜锭
 item.bucketHydraulicOil.name=液压油桶
 item.bucketLubricant.name=润滑油桶
 item.bucketOil.name=原油桶
-item.bucketFluoroCarbonFluid.name=Fluoro Carbon Fluid桶
+item.bucketFluoroCarbonFluid.name=氟碳化合物桶
 item.bacon.name=培根
 item.miningHelmet.name=矿工头盔
 item.itemLamp.name=矿工头盔灯
@@ -34,7 +34,7 @@ tile.oreFoxium.name=Foxium
 tile.hydraulicOil.name=液压油
 tile.oil.name=原油
 tile.lubricant.name=润滑油
-tile.fluoroCarbonFluid.name=Fluoro Carbon Fluid
+tile.fluoroCarbonFluid.name=氟碳化合物
 tile.hydraulicFilter.name=过滤器
 tile.hydraulicFrictionIncinerator.name=摩擦焚烧炉
 tile.hydraulicCrusher.name=磨粉机
@@ -67,12 +67,12 @@ tile.HPHydraulicLavaPump.name=高压岩浆泵
 tile.hydraulicHarvesterSource.name=液压收割机
 tile.hydraulicHarvesterFrame.name=收割机框架
 
-tile.harvesterTrolley.crops.name=小麦收割机
-tile.harvesterTrolley.enderLily.name=末影百合收割机
-tile.harvesterTrolley.sugarCane.name=甘蔗收割机
-tile.harvesterTrolley.cactus.name=仙人掌收割机
-tile.harvesterTrolley.netherWart.name=地狱疣收割机
-tile.harvesterTrolley.flax.name=亚麻收割机
+tile.harvesterTrolley.crops.name=小麦收割车
+tile.harvesterTrolley.enderLily.name=末影百合收割车
+tile.harvesterTrolley.sugarCane.name=甘蔗收割车
+tile.harvesterTrolley.cactus.name=仙人掌收割车
+tile.harvesterTrolley.netherWart.name=地狱疣收割车
+tile.harvesterTrolley.flax.name=亚麻收割车
 
 tile.hydraulicPiston.name=液压活塞
 tile.interfaceValve.name=接口阀门
@@ -137,7 +137,7 @@ lang.pressure=压力
 fluid.hydraulicOil=液压油
 fluid.oil=原油
 fluid.lubricant=润滑油
-fluid.fluoroCarbonFluid=Fluoro Carbon Fluid
+fluid.fluoroCarbonFluid=氟碳化合物
 lang.gui.generating=正在产生
 lang.gui.max=最大
 lang.gui.using=正在使用
@@ -147,21 +147,21 @@ lang.gui.maxHighPressure=最大: 高压
 lang.gui.maxMediumPressure=最大: 中压
 lang.gui.maxLowPressure=最大: 低压
 lang.warn.wip=注意: 这个方块现在仍能正常使用,但以后会被其它取代!
-lang.gui.updateAvailable=新版Hydraulicraft可用: 版本为%s
+lang.gui.updateAvailable=有新本版的Hydraulicraft可用: 版本为%s
 lang.gui.releasedAt=Released on: %s
 lang.gui.upToDate=Hydraulicraft up to date
 lang.tooltip.multiblock=多方块结构.最大压力取决于所使用的核心.
 
 #Harvester
-lang.harvester.notFormingError.trolleyExpected=Expected a trolley at %s
-lang.harvester.notFormingError.frameRotationWrong=Frame at %s is rotated wrong
-lang.harvester.notFormingError.frameExpected=Expected a frame at %s
-lang.harvester.notFormingError.verticalFrameExpected=Expected a vertical frame at %s
-lang.harvester.notFormingError.pistonExpected=Expected a piston at %s
-lang.harvester.notFormingError.endBlockExpected=Expected a pressure wall at %s
-lang.harvester.notFormingError.tooShort=The harvester is too short(%s)
-lang.harvester.notFormingError.tooLong=The harvester is too long(%s)
-lang.harvester.notFormingError.tooWide=The harvester is too wide(%s)
+lang.harvester.notFormingError.trolleyExpected=需要在%s放置收割车
+lang.harvester.notFormingError.frameRotationWrong=%s的收割机框架方向错误
+lang.harvester.notFormingError.frameExpected=需要在%s放置收割机框架
+lang.harvester.notFormingError.verticalFrameExpected=需要在%s放置栅栏
+lang.harvester.notFormingError.pistonExpected=需要在%s放置液压活塞
+lang.harvester.notFormingError.endBlockExpected=需要在%s放置压力墙
+lang.harvester.notFormingError.tooShort=这个收割机太Short了(%s)
+lang.harvester.notFormingError.tooLong=这个收割机太Long了(%s)
+lang.harvester.notFormingError.tooWide=这个收割机太Wide了(%s)
 
 
 ####Third party
@@ -213,6 +213,6 @@ hydcraft.wiki.entry.thirdparty:rf=- Redstone Flux
 
 
 # Death Messages
-hydcraft:death.attack.pressure1=%s forgot his diving suit
+hydcraft:death.attack.pressure1=%s忘记了他的潜水服
 hydcraft:death.attack.pressure2=%s was killed by the pressure of the water
-hydcraft:death.attack.pressure3=Fluid dynamics got the best of %s
+hydcraft:death.attack.pressure3=%s被流体力学打败了
