@@ -92,12 +92,12 @@ tile.blockLead.name=铅块
 tile.blockJarDirt.name=土罐
 tile.refinedLonezium.name=精炼Lonezium
 tile.refinedNadsiumBicarbinate.name=精炼Nadsium Bicarbinate
-tile.blockDirtyMineral.name=Dirty Mineral
+tile.blockDirtyMineral.name=废矿渣
 tile.hydraulicAssembler.name=组装台
 tile.fluidPipe.name=Fluid Pipe
 tile.fluidInterface.name=Fluid Interface
-tile.hydraulicCharger.name=Hydraulic Charger
-tile.hydraulicFiller.name=Hydraulic Filler
+tile.hydraulicCharger.name=液压加压机
+tile.hydraulicFiller.name=液压填充机
 
 
 #Dust and chunks
@@ -159,9 +159,9 @@ lang.harvester.notFormingError.frameExpected=需要在%s放置收割机框架
 lang.harvester.notFormingError.verticalFrameExpected=需要在%s放置栅栏
 lang.harvester.notFormingError.pistonExpected=需要在%s放置液压活塞
 lang.harvester.notFormingError.endBlockExpected=需要在%s放置压力墙
-lang.harvester.notFormingError.tooShort=这个收割机太Short了(%s)
-lang.harvester.notFormingError.tooLong=这个收割机太Long了(%s)
-lang.harvester.notFormingError.tooWide=这个收割机太Wide了(%s)
+lang.harvester.notFormingError.tooShort=这个收割机太短了(%s)
+lang.harvester.notFormingError.tooLong=这个收割机太长了(%s)
+lang.harvester.notFormingError.tooWide=这个收割机太宽了(%s)
 
 
 ####Third party
@@ -214,5 +214,5 @@ hydcraft.wiki.entry.thirdparty:rf=- Redstone Flux
 
 # Death Messages
 hydcraft:death.attack.pressure1=%s忘记了他的潜水服
-hydcraft:death.attack.pressure2=%s was killed by the pressure of the water
+hydcraft:death.attack.pressure2=%s被水压压死了
 hydcraft:death.attack.pressure3=%s被流体力学打败了
