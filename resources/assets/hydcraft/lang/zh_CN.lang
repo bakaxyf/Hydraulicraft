@@ -84,7 +84,7 @@ tile.HPBlockCore.name=高压核心
 
 tile.blockInfiniteSource.name=无限能源
 tile.hydraulicFluidPump.name=阿基米德螺旋泵
-desc.hydraulicFluidPump=Pump for pumping up fluids
+desc.hydraulicFluidPump=流体抽取用泵
 
 tile.blockCopper.name=铜块
 tile.blockLead.name=铅块
@@ -148,8 +148,8 @@ lang.gui.maxMediumPressure=最大: 中压
 lang.gui.maxLowPressure=最大: 低压
 lang.warn.wip=注意: 这个方块现在仍能正常使用,但以后会被其它取代!
 lang.gui.updateAvailable=有新本版的Hydraulicraft可用: 版本为%s
-lang.gui.releasedAt=Released on: %s
-lang.gui.upToDate=Hydraulicraft up to date
+lang.gui.releasedAt=于%s发布
+lang.gui.upToDate=更新Hydraulicraft到最新
 lang.tooltip.multiblock=多方块结构.最大压力取决于所使用的核心.
 
 #Harvester
